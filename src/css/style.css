@@ -1,0 +1,57 @@
+body {
+    padding: 38px 35px;
+    font-family: Roboto;
+    display: grid;
+    grid: "principal selecionado";
+    grid-template-columns: 560px 305px;
+}
+
+.video-principal {
+
+    grid-area: principal;
+
+        .container {
+            width: 543px;
+            height: 217px;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 700;
+            padding-bottom: 7px;
+            padding-top: 12px;
+        }
+
+        .quantidade-visualizacao {
+            font-size: 14px;
+            font-weight: 300;
+            padding-bottom: 9px;
+        }
+
+        .descricao-video-principal {
+            font-size: 16px;
+            font-weight: 300;
+            width: 538px;
+        }
+
+}
+
+
+.videos-selecionados {
+
+    display: grid;
+    grid-area: selecionado;
+    grid-gap: 15px;
+    background-color: aqua;
+
+        .propaganda {
+            width: 270px;
+            height: 56px;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 300;
+            padding-bottom: 5px;
+        }
+}
+
+
