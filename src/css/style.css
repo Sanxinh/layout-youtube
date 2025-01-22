@@ -13,6 +13,7 @@ body {
         .container {
             width: 543px;
             height: 217px;
+            background-color: #C4C4C4;
         }
 
         h3 {
@@ -49,6 +50,7 @@ body {
             text-align: center;
             font-size: 11px;
             font-weight: 300;
+            background-color: #C4C4C4;
 
             .texto-propaganda {
             display: flex;
@@ -65,6 +67,10 @@ body {
             grid: " . . ";
             grid-template-columns: 101px 162px;
             grid-template-rows: 71px 72px;
+            
+                .container{
+                    background-color: #C4C4C4;
+                }
 
                 .infomacoes {
 
