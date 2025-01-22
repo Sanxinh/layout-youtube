@@ -41,8 +41,7 @@ body {
 
     display: grid;
     grid-area: selecionado;
-    grid-gap: 15px;
-    background-color: aqua;
+    grid-gap: 20px;
 
         .propaganda {
             width: 270px;
@@ -50,8 +49,42 @@ body {
             text-align: center;
             font-size: 11px;
             font-weight: 300;
-            padding-bottom: 5px;
+
+            .texto-propaganda {
+            display: flex;
+            justify-content: center;
+            padding-top: 23px;
+            }
         }
-}
+
+        .selecionavel {
+            width: 267px;
+            height: 72px;
+            grid-gap: 15px 4px;
+            display: grid;
+            grid: " . . ";
+            grid-template-columns: 101px 162px;
+            grid-template-rows: 71px 72px;
+
+                .infomacoes {
+
+                    font-size: 11px;
+                    font-weight: 300;
+                    display: grid;
+                    grid-gap: 5px;
+                    
+                    h4 {
+                        font-size: 14px;
+                        font-weight: 700;
+                        /* display: grid; */
+                        grid-gap: 7px;
+                    }
+                }
+        }
+
+
+
+
+    }
 
 
